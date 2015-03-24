@@ -55,6 +55,8 @@ static NSString *cellIdentifier = @"cell";
     self.navigationItem.title = @"";
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+    // This is a test
+    
      //设置页面切换控制器
     segmentControl = [[UISegmentedControl alloc] initWithItems:@[@"热帖", @"版块"]];
     segmentControl.frame = CGRectMake(80, 0, WIDTH - 160, 44);
